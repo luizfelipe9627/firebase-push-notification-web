@@ -28,6 +28,9 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'eslint-disable-next-line no-undef': [
+        'error',
+      ],
     },
   },
 ]

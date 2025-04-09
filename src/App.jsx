@@ -32,7 +32,7 @@ function App() {
     });
 
     return (
-        <div>
+        <div className="container">
             <h1>React Firebase Push Notification</h1>
             <button onClick={handleNotificationPermission}>
                 Ativar Notificações

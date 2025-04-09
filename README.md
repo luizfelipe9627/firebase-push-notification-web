@@ -32,13 +32,21 @@ VITE_FIREBASE_APP_ID=SEU_APP_ID
 VITE_FIREBASE_VALID_KEY=SEU_VALID_KEY
 ```
 
-### 3. Instalar as Dependências
+### 3. Geração do Service Worker (`firebase-messaging-sw.js`)
+
+O arquivo `firebase-messaging-sw.js` é gerado automaticamente a partir de variáveis do `.env` e salva em public/firebase-messaging-sw.js, usando o script:
+
+```bash
+npm run prebuild
+````
+
+### 4. Instalar as Dependências
 
 ```sh
 npm install
 ```
 
-### 4. Executar a Aplicação Localmente
+### 5. Executar a Aplicação Localmente
 
 ```sh
 npm run dev
